@@ -1,34 +1,91 @@
-header{
-    background-color: lightsteelblue;
-    border: 15px solid white;
-    border-radius: 10px;
-}
-
 body {
     background-color: lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h2, h3{
-    color: rgb(43, 42, 42);
-}
-h3{
-    text-align: center;
-    border: 2px solid lightslategrey;
+.header{
+    background-color: rgb(104, 100, 122);
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 2px solid rgb(104,100,122);
     border-radius: 5px;
-    background-color: rgb(197, 210, 226);
 }
 
-img{
-    border: 5px solid white;
-    border-radius: 2px;
+footer{
+    background-color: rgb(104, 100, 122);
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: 2px solid rgb(104,100,122);
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 h2{
+    color: rgb(43, 42, 42);
+    text-align: center;
+    border: 2px solid lightslategrey;
+    border-radius: 3px;
+    background-color: rgb(197, 210, 226);
+    padding-left: 10mm;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.imagenes{
+    margin-left: 30px;
+    border: 5px solid white;
+    border-radius: 2px;
+}
+.img{
+    border: 5px solid white;
+    border-radius: 2px;
+    margin-left: 200px;
+}
+
+/*h2{
     text-align: center;
     border: 3px solid rgb(104, 100, 122);
     border-radius: 10px;
     background-color: rgb(197, 210, 226);
 }
-p{
+*/
+.primerp {
     text-align: center;
+    letter-spacing: 1mm;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    line-height: 30px;
+}
+.segundop{
+    text-align: center;
+    letter-spacing: 1mm;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    line-height: 30px;
+}
+strong{
+    font-weight: bold;
+}
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px ;
+}
+
+.social-link.facebook{
+   background-image: url("Imagen/facebook.png");
+   margin-left: 550px;
+}
+
+.social-link.instagram{
+    background-image: url("Imagen/instagram.png");
 }
