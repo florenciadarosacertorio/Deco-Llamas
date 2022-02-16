@@ -11,9 +11,20 @@ body {
     margin-right: 150px;
     border: 2px solid #D55100;
     border-radius: 5px;
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
     list-style: none;
+    align-items: center;
+    font-weight: bold;
+}
+
+.header li{
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.link:hover{
+ color:#D55100 ;
 }
 
 footer{
@@ -52,13 +63,7 @@ h2{
     margin-left: 200px;
 }
 
-/*h2{
-    text-align: center;
-    border: 3px solid rgb(104, 100, 122);
-    border-radius: 10px;
-    background-color: rgb(197, 210, 226);
-}
-*/
+
 .primerp {
     text-align: center;
     letter-spacing: 1mm;
@@ -90,7 +95,7 @@ strong{
 
 .social-link.facebook{
    background-image: url("Imagen/facebook.png");
-   margin-left: 550px;
+   margin-left: 650px;
 }
 
 .social-link.instagram{
